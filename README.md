@@ -1,12 +1,14 @@
 # MMVAS REST API 
 
 ## API BASE URL
-سرویس های تحت پلتفرم IMI و Pardis از طریق آدرس های زیر در اختیار شما قرارخواهند گرفت.
+
+آدرس وب سرویس اعتبارسنجی کاربران به شرح زیر است. با توجه به نوع پلتفرم پیاده سازی درگاه، از یکی از دو آدرس زیر استفاده کنید
+
 Api Base Url 
-  - IMI services : 
-        http://s1.mmvas.ir/api/imi/
-  - Pardis services : 
-        http://s1.mmvas.ir/api/pardis/
+  - IMI : 
+        `http://s1.mmvas.ir/api/imi/`
+  - Pardis : 
+        `http://s1.mmvas.ir/api/pardis/`
 
 ## LOGIN
 * [Login] : `POST /api/login/`
