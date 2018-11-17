@@ -17,3 +17,12 @@ serviceId : is the unique ID for VAS service you want to use.
 ## LOGIN
 * [Login](pushOtp.md) : `POST /otp/request`
 
+## VERIFY
+* [Verify](chargeOtp.md) : `POST /otp/charge`
+
+## CHECK USER SUBSCRIPTION STATUS
+* [Check Subscription](checkSub.md) : `GET /subscription/check`
+
+## UNSUBSCRIBE USER
+* [Unsubscribe](unsub.md) : `POST /unsubscribe`
+
