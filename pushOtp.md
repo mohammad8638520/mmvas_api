@@ -12,11 +12,15 @@
 
 ## Response
 
+در صورتی که درخواست غیرمجاز نباشد و عملیات موفقیت آمیز به پایان برسد، پاسخی به شکل عبارت زیر دریافت خواهید کرد
+
+** Code ** : `200 OK`
 ```json
 {
-    "status": true / false,
-    "message": "otp sent" / "error message"
+    "status": **true**,
+    "message": "otp sent"
 }
 ```
+
 
 
