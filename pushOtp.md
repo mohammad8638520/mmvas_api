@@ -1,55 +1,22 @@
-# Login
+# Login ( PushOtp)
 
-Used to collect a Token for a registered User.
+برای درخواست کد یک بار مصرف از این سرویس استفاده کنید. دقت کنید برای بار دوم پس از  پنج دقیقه  میتوانید درخواست کد یکبارمصرف را  تکرار کنید
 
-**URL** : `/api/login/`
+
+**URL** : `/otp/request/`
 
 **Method** : `POST`
 
-**Auth required** : NO
+**Params** : `mobile`
+        mobile number : 09xxxxxxxxx
 
-**Data constraints**
-
-```json
-{
-    "username": "[valid email address]",
-    "password": "[password in plain text]"
-}
-```
-
-**Data example**
+## Response
 
 ```json
 {
-    "username": "iloveauth@example.com",
-    "password": "abcd1234"
+    "status": true / false,
+    "message": "otp sent" / "error message"
 }
 ```
 
-## Success Response
 
-**Code** : `200 OK`
-
-**Content example**
-
-```json
-{
-    "token": "93144b288eb1fdccbe46d6fc0f241a51766ecd3d"
-}
-```
-
-## Error Response
-
-**Condition** : If 'username' and 'password' combination is wrong.
-
-**Code** : `400 BAD REQUEST`
-
-**Content** :
-
-```json
-{
-    "non_field_errors": [
-        "Unable to login with provided credentials."
-    ]
-}
-```
