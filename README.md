@@ -15,4 +15,5 @@ serviceId : is the unique ID for VAS service you want to use.
 شناسه سرویس را از طریق تماس با پشتیبانی دریافت کنید
 
 ## LOGIN
-* [Login] : `POST /api/login/`
+* [Login] (pushOtp.md) : `POST /otp/request`
+
