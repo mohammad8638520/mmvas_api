@@ -9,10 +9,12 @@
 
 **Method** : `POST`
 
-**Params** : `mobile`
-        mobile number : 09xxxxxxxxx
-              `pin`
-        otp pin : 1762
+**Params** : 
+        `mobile`
+                mobile number : 09xxxxxxxxx
+        `pin`
+                otp pin : 1762
+
 
 ## Success Response
 
