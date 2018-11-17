@@ -4,6 +4,7 @@
 از این سرویس برای تایید کد یکبارمصرف و دریافت توکن اختصاصی سرویس ارزش افزوده، استفاده میشود.
 
 رمز یکبار مصرف از طریق پیامک برای شماره وارد شده ارسال خواهد شد.
+
 **URL** : `/otp/charge`
 
 **Method** : `POST`
@@ -44,3 +45,4 @@
 ** Code ** : `200 OK`
 `Invalid Request`
 
+*[Check Subscription](checkSub.md) `GET /subcription/check`
