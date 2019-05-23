@@ -5,13 +5,14 @@
 آدرس وب سرویس اعتبارسنجی کاربران به شرح زیر است. با توجه به نوع پلتفرم پیاده سازی درگاه، از یکی از دو آدرس زیر استفاده کنید
 
 Api Base Url 
-  - IMI : 
+  - Rashin(IMI) : 
         `http://s1.mmvas.ir/api/imi/{serviceId}`
   - Pardis : 
         `http://s1.mmvas.ir/api/pardis/{serviceId}`
+  - HamrahVas(IMI) : 
+        `http://s1.mmvas.ir/api/hvas/{serviceId}`
 
-serviceId : is the unique ID for VAS service you want to use.
-
+serviceId :
 شناسه سرویس را از طریق تماس با پشتیبانی دریافت کنید
 
 ## LOGIN
