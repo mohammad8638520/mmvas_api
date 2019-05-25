@@ -11,11 +11,9 @@
 
 **Params** : `mobile`
 
-        mobile number : 09xxxxxxxxx
-        
 **در بدنه رکوئست پارامتر ها به صورت فرم و مشابه فرمت زیر ارسال شوند**:
 
-**RequestBody**: `mobile=09123456789`
+**RequestBody**: ```mobile=09123456789```
 
 
 ## Success Response
