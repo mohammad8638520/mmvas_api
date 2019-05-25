@@ -6,12 +6,17 @@
 **URL** : `/otp/request/`
 
 **Method** : `POST`
+
 **Content-Type**: `x-www-form-urlencoded`
+
 **Params** : `mobile`
+
         mobile number : 09xxxxxxxxx
         
 **!!!**:
+
 در بدنه رکوئست پارامتر ها به صورت فرم ارسال شوند. به صورت زیر :
+
 mobile=09123456789
 
 ## Success Response
