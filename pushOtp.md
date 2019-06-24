@@ -19,6 +19,18 @@
 mobile=09123456789
 ```
 
+**Request Headers (optional, but recommended)**:
+```
+    x-log-app: com.example.package
+    x-log-app-version: 1.2
+    x-log-os: android
+    x-log-os-version: 1.4
+    x-log-device: Samsung Galaxy S9
+    x-log-campaign: norooz99,
+    x-log-landing: internet6GB
+```
+
+**Send Everything you want to log, as a header with 'x-log-' prefix **
 
 ## Success Response
 
