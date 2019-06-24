@@ -30,6 +30,19 @@ mobile=09123456789&pin=1234
 
 ```
 
+**Request Headers (optional, but recommended)**:
+```
+    x-log-app: com.example.package
+    x-log-app-version: 1.2
+    x-log-os: android
+    x-log-os-version: 1.4
+    x-log-device: Samsung Galaxy S9
+    x-log-campaign: norooz99,
+    x-log-landing: internet6GB
+```
+
+**Send Everything you want to log, as a header with 'x-log-' prefix **
+
 **لطفا نسخه فعلی اپلیکیشن را (درصورت استفاده از طریق اپلیکیشن) به بدنه درخواست اضافه کنید**:
 
 **RequestBody**: 
