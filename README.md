@@ -6,7 +6,7 @@
 
 ***Api Base Url*** 
 
-        ``http://s1.mmvas.ir/api/vas/{serviceId}``
+        http://s1.mmvas.ir/api/vas/{serviceId}
 
 serviceId :
 شناسه سرویس را از طریق تماس با پشتیبانی دریافت کنید
